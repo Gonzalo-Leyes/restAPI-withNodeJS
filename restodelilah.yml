@@ -1,0 +1,50 @@
+%YAML 1.1
+---
+# restodelilah.products
+-
+  id: 1
+  name: "hamburguesa doble con cheddar"
+  price: 480
+  picture: "https://mcdonalds.co.nz/sites/mcdonalds.co.nz/files/Double%20Cheeseburger%20700x487.png"
+  active: 1
+-
+  id: 2
+  name: "papas fritas con cheddar bacon y verdeo"
+  price: 330
+  picture: "https://locosxlaparrilla.com/wp-content/uploads/2015/02/Receta-recetas-locos-x-la-parrilla-locosxlaparrilla-receta-papas-fritas-cheddar-verdeo-panceta-papas-fritas-cheddar-verde.png"
+  price_discount: 270
+  active: 1
+-
+  id: 3
+  name: "pancho con papas fritas"
+  price: 260
+  picture: "https://images-gmi-pmc.edge-generalmills.com/03dba6be-540b-41f6-adea-8be7ab899ef8.jpg"
+  price_discount: 0
+  active: 1
+# restodelilah.users
+-
+  id: 1
+  name: "Gonzalo Leyes"
+  email: "fakemail@hotmail.com"
+  phone: 1150504040
+  address: "Fake Street 123"
+  password: 12345
+  username: "GonzaloLeyes"
+  role_id: 1
+-
+  id: 2
+  name: "Pepe"
+  email: "anothermail@yahoo.com"
+  phone: 1122334455
+  address: "grove street 000"
+  password: "abcde"
+  username: "Pepe01"
+  role_id: 2
+# restodelilah.user_roles
+-
+  id: 1
+  name: "Administrador"
+-
+  id: 2
+  name: "User"
+...
