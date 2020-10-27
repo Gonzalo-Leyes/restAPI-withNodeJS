@@ -1,7 +1,7 @@
 module.exports = (req, res, next) => {
     const isAdmin = res.locals.isAdmin;
 
-   if (isAdmin === "Administrator"){
+   if (isAdmin === "Administrador"){
         return next();
     }
     

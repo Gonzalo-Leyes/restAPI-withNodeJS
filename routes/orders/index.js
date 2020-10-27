@@ -1,3 +1,5 @@
+
+
 const express = require('express');
 const sequelize = require('./../../mysql');
 const server = express();
@@ -11,18 +13,19 @@ server.post('/',authMiddleware, async (req, res) => {
     try {      
         const paymentMethod = Object.values(req.body[0])[0];    
         const user = Object.values(req.body[1])[0];
-        await sequelize.query(`
+        const firstdata = await sequelize.query(`
             INSERT INTO orders
             (payments_method_id, status_id, user_id)
             VALUES 
             (?, ?, ?)`,
             {replacements: [paymentMethod, 1, user]} // El valor 1 indica que la orden es nueva
-            );           
-        const data = await sequelize.query('SELECT MAX(id) FROM orders ', { type: sequelize.QueryTypes.SELECT })
-        const last_order = Object.values(data[0])[0]
+            );
+            console.log(firstdata);           
+        const data = await sequelize.query('SELECT MAX(id) FROM orders ', { type: sequelize.QueryTypes.SELECT });
+        const last_order = Object.values(data[0])[0];
         async function insertProduct(product,index,array) {
             await sequelize.query(`
-                INSERT INTO order_products
+                INSERT INTO orders_products
                 (order_id, product_id)
                 VALUES 
                 (?, ?)`,
@@ -30,17 +33,17 @@ server.post('/',authMiddleware, async (req, res) => {
             );
         };
         req.body.forEach(insertProduct);
-        res.send({"Mensaje":"Your order was processed successfully!"})
+        res.status(200).send({"Mensaje":"Your order was processed successfully!"});
 } catch(err) {
     res.statusCode = 400
-    console.log(err)
+    console.log("Error creating order!" + err)
 }
 })
 
 //Get orders by order id 
 server.get('/:id', authMiddleware, adminMiddleware, async (req,res) => { 
     try {
-    const data = await sequelize.query(`SELECT c.name estado, a.created_at hora, a.id numero_orden, e.name descripcion, f.name pago, b.name usuario, b.address direccion FROM orders as a JOIN users b ON a.user_id = b.id JOIN order_status c ON a.status_id = c.id JOIN order_products d ON d.order_id = a.id JOIN products e on e.id = d.product_id JOIN payment_methods f ON f.id = a.payments_method_id WHERE a.id = ${req.params.id}`, { type: sequelize.QueryTypes.SELECT })
+    const data = await sequelize.query(`SELECT c.name estado, a.created_at hora, a.id numero_orden, e.name descripcion, f.name pago, b.name usuario, b.address direccion FROM orders as a JOIN users b ON a.user_id = b.id JOIN order_status c ON a.status_id = c.id JOIN orders_products d ON d.order_id = a.id JOIN products e on e.id = d.product_id JOIN payment_methods f ON f.id = a.payments_method_id WHERE a.id = ${req.params.id}`, { type: sequelize.QueryTypes.SELECT })
     if (data.length > 0) {
         res.send(data)
     } else {

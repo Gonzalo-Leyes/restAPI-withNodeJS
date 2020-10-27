@@ -1,5 +1,143 @@
 %YAML 1.1
 ---
+# restodelilah.orders
+-
+  id: 9
+  user_id: 2
+  status_id: 1
+  created_at: "2020-10-27 12:22:46"
+  payments_method_id: 1
+-
+  id: 10
+  user_id: 1
+  status_id: 1
+  created_at: "2020-10-27 12:23:14"
+  payments_method_id: 2
+-
+  id: 11
+  user_id: 1
+  status_id: 1
+  created_at: "2020-10-27 12:25:31"
+  payments_method_id: 2
+-
+  id: 12
+  user_id: 2
+  status_id: 1
+  created_at: "2020-10-27 12:25:38"
+  payments_method_id: 1
+-
+  id: 13
+  user_id: 2
+  status_id: 1
+  created_at: "2020-10-27 12:28:46"
+  payments_method_id: 1
+-
+  id: 14
+  user_id: 2
+  status_id: 1
+  created_at: "2020-10-27 12:33:19"
+  payments_method_id: 1
+-
+  id: 15
+  user_id: 1
+  status_id: 1
+  created_at: "2020-10-27 12:34:20"
+  payments_method_id: 2
+-
+  id: 16
+  user_id: 1
+  status_id: 1
+  created_at: "2020-10-27 12:35:00"
+  payments_method_id: 2
+-
+  id: 17
+  user_id: 1
+  status_id: 1
+  created_at: "2020-10-27 12:35:25"
+  payments_method_id: 2
+# restodelilah.orders_products
+-
+  id: 1
+  order_id: 11
+  product_id: 1
+-
+  id: 2
+  order_id: 11
+  product_id: 1
+-
+  id: 3
+  order_id: 12
+  product_id: 2
+-
+  id: 4
+  order_id: 12
+  product_id: 2
+-
+  id: 5
+  order_id: 13
+  product_id: 2
+-
+  id: 6
+  order_id: 13
+  product_id: 2
+-
+  id: 7
+  order_id: 14
+  product_id: 2
+-
+  id: 8
+  order_id: 14
+  product_id: 2
+-
+  id: 9
+  order_id: 15
+  product_id: 3
+-
+  id: 10
+  order_id: 15
+  product_id: 2
+-
+  id: 11
+  order_id: 16
+  product_id: 2
+-
+  id: 12
+  order_id: 16
+  product_id: 2
+-
+  id: 13
+  order_id: 17
+  product_id: 2
+-
+  id: 14
+  order_id: 17
+  product_id: 2
+# restodelilah.orders_status
+-
+  id: 1
+  name: "New"
+-
+  id: 2
+  name: "Confirmed"
+-
+  id: 3
+  name: "Preparing"
+-
+  id: 4
+  name: "Being delivered"
+-
+  id: 5
+  name: "Delivered"
+-
+  id: 6
+  name: "Canceled"
+# restodelilah.payment_methods
+-
+  id: 1
+  name: "Cash"
+-
+  id: 2
+  name: "Credit/Debit Card"
 # restodelilah.products
 -
   id: 1
@@ -20,6 +158,20 @@
   price: 260
   picture: "https://images-gmi-pmc.edge-generalmills.com/03dba6be-540b-41f6-adea-8be7ab899ef8.jpg"
   price_discount: 0
+  active: 1
+-
+  id: 4
+  name: "chocotorta"
+  price: 210
+  picture: "https://postres.online/wp-content/uploads/2018/08/chocotorta-argentina-receta-compressor-1200x632.jpg"
+  price_discount: 0
+  active: 1
+-
+  id: 5
+  name: "capeletis con salsa fileto"
+  price: 240
+  picture: "https://www.multipasta.com.ar/wp-content/uploads/2014/09/sorrentinos.jpg"
+  price_discount: 50
   active: 1
 # restodelilah.users
 -
