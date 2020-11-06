@@ -570,7 +570,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \"name\": \"Helado\",\r\n        \"price\": 150,\r\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
+							"raw": "{\r\n        \"name\": \"Helado\",\r\n        \"price\": 150,\r\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
 						},
 						"url": {
 							"raw": "http://localhost:3000/products",
@@ -598,7 +598,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n        \"name\": \"Helado\",\r\n        \"price\": 150,\r\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
+									"raw": "{\r\n        \"name\": \"Helado\",\r\n        \"price\": 150,\r\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
 								},
 								"url": {
 									"raw": "http://localhost:3000/products",
@@ -735,7 +735,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Pizza Napolitana\",\n        \"price\": 400,\n        \"photo\": \"https://okdiario.com/img/2016/08/15/pizza-napolitana-sin-gluten-655x368.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Hamburguesa Paris\",\n        \"price\": 650,\n        \"photo\": \"https://media-cdn.tripadvisor.com/media/photo-s/14/0f/c8/a6/big-formule-bartholome.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Bucket de pollo frito con ensalada coleslaw\",\n        \"price\": 350,\n        \"photo\": \"https://clubdecocina.com.ar/images/joomlart/article/3f51ec9d49bc461803b454a4875d5aa8.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Parrillada completa\",\n        \"price\": 1000,\n        \"photo\": \"https://th.bing.com/th/id/OIP.M9dK2Fyv3O2G8DoJ9qtDdAHaE1?w=268&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Brusquetta salmon\",\n        \"price\": 150,\n        \"photo\": \"https://th.bing.com/th/id/OIP.koCj1R-1EiYEJ7VaQN351AHaFj?w=239&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Ensalada rusa\",\n        \"price\": 250,\n        \"photo\": \"https://th.bing.com/th/id/OIP.grTkrGhncNKyZX_PGf9_jQHaEK?w=299&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Porcion papas fritas\",\n        \"price\": 200,\n        \"photo\": \"https://th.bing.com/th/id/OIP.HpmCu56wghci8F_6l_aVegHaEK?w=316&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Ravioles de berenjenas rossini\",\n        \"price\": 350,\n        \"photo\": \"https://www.bertuccis.com/wp-content/uploads/Four-Cheese-Ravioli-1024x819.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Filet de merluza con pure\",\n        \"price\": 450,\n        \"photo\": \"https://www.bing.com/th?id=OIP.H20ZJwA2Oude7YE9rLVpDQAAAA&w=189&h=160&c=8&rs=1&qlt=90&pid=3.1&rm=2\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 15,\n        \"name\": \"Helado\",\n        \"price\": 150,\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    }\n]"
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Pizza Napolitana\",\n        \"price\": 400,\n        \"picture\": \"https://okdiario.com/img/2016/08/15/pizza-napolitana-sin-gluten-655x368.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Hamburguesa Paris\",\n        \"price\": 650,\n        \"picture\": \"https://media-cdn.tripadvisor.com/media/photo-s/14/0f/c8/a6/big-formule-bartholome.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Bucket de pollo frito con ensalada coleslaw\",\n        \"price\": 350,\n        \"picture\": \"https://clubdecocina.com.ar/images/joomlart/article/3f51ec9d49bc461803b454a4875d5aa8.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Parrillada completa\",\n        \"price\": 1000,\n        \"picture\": \"https://th.bing.com/th/id/OIP.M9dK2Fyv3O2G8DoJ9qtDdAHaE1?w=268&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Brusquetta salmon\",\n        \"price\": 150,\n        \"picture\": \"https://th.bing.com/th/id/OIP.koCj1R-1EiYEJ7VaQN351AHaFj?w=239&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Ensalada rusa\",\n        \"price\": 250,\n        \"picture\": \"https://th.bing.com/th/id/OIP.grTkrGhncNKyZX_PGf9_jQHaEK?w=299&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Porcion papas fritas\",\n        \"price\": 200,\n        \"picture\": \"https://th.bing.com/th/id/OIP.HpmCu56wghci8F_6l_aVegHaEK?w=316&h=180&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Ravioles de berenjenas rossini\",\n        \"price\": 350,\n        \"picture\": \"https://www.bertuccis.com/wp-content/uploads/Four-Cheese-Ravioli-1024x819.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Filet de merluza con pure\",\n        \"price\": 450,\n        \"picture\": \"https://www.bing.com/th?id=OIP.H20ZJwA2Oude7YE9rLVpDQAAAA&w=189&h=160&c=8&rs=1&qlt=90&pid=3.1&rm=2\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Pastel de papas\",\n        \"price\": 550,\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    },\n    {\n        \"id\": 15,\n        \"name\": \"Helado\",\n        \"price\": 150,\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\n        \"price_discount\": 0,\n        \"active\": 1\n    }\n]"
 						}
 					]
 				},
@@ -806,7 +806,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"id\": 3,\n        \"name\": \"Bucket de pollo frito con ensalada coleslaw\",\n        \"price\": 350,\n        \"photo\": \"https://clubdecocina.com.ar/images/joomlart/article/3f51ec9d49bc461803b454a4875d5aa8.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    }\n]"
+							"body": "[\n    {\n        \"id\": 3,\n        \"name\": \"Bucket de pollo frito con ensalada coleslaw\",\n        \"price\": 350,\n        \"picture\": \"https://clubdecocina.com.ar/images/joomlart/article/3f51ec9d49bc461803b454a4875d5aa8.jpg\",\n        \"price_discount\": 0,\n        \"active\": 1\n    }\n]"
 						}
 					]
 				},
@@ -838,7 +838,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n        \r\n        \"name\": \"Pastel de papas\",\r\n        \"price\": 350,\r\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
+							"raw": "{\r\n        \r\n        \"name\": \"Pastel de papas\",\r\n        \"price\": 350,\r\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
 						},
 						"url": {
 							"raw": "http://localhost:3000/products/10",
@@ -867,7 +867,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n        \r\n        \"name\": \"Pastel de papas\",\r\n        \"price\": 350,\r\n        \"photo\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
+									"raw": "{\r\n        \r\n        \"name\": \"Pastel de papas\",\r\n        \"price\": 350,\r\n        \"picture\": \"https://th.bing.com/th/id/OIP.mHySY5DGMit2N5PrY_al1wHaHg?w=180&h=182&c=7&o=5&pid=1.7\",\r\n        \"price_discount\": 0,\r\n        \"active\": 1\r\n    }"
 								},
 								"url": {
 									"raw": "http://localhost:3000/products/10",
@@ -1031,7 +1031,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "[\r\n    {\"payment_method_id\": 1},\r\n    {\"user_id\": 2}, \r\n    {\"status_id\": 1},\r\n    {\"product_id\": 6},\r\n    {\"product_id\": 3}\r\n]\r\n\r\n\r\n"
+							"raw": "[\r\n    {\"payments_method_id\": 1},\r\n    {\"user_id\": 2}, \r\n    {\"status_id\": 1},\r\n    {\"product_id\": 6},\r\n    {\"product_id\": 3}\r\n]\r\n\r\n\r\n"
 						},
 						"url": {
 							"raw": "http://localhost:3000/orders",
@@ -1060,7 +1060,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "[\r\n    {\"payment_method_id\": 1},\r\n    {\"user_id\": 2}, \r\n    {\"status_id\": 1},\r\n    {\"product_id\": 6},\r\n    {\"product_id\": 3}\r\n]\r\n\r\n\r\n"
+									"raw": "[\r\n    {\"payments_method_id\": 1},\r\n    {\"user_id\": 2}, \r\n    {\"status_id\": 1},\r\n    {\"product_id\": 6},\r\n    {\"product_id\": 3}\r\n]\r\n\r\n\r\n"
 								},
 								"url": {
 									"raw": "http://localhost:3000/orders",
@@ -1249,7 +1249,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"id\": 1,\n        \"user_id\": 3,\n        \"status_id\": 1,\n        \"created_at\": \"2020-09-29T21:09:52.000Z\",\n        \"payment_method_id\": 1\n    },\n    {\n        \"id\": 45,\n        \"user_id\": 1,\n        \"status_id\": 3,\n        \"created_at\": \"2020-09-29T21:20:28.000Z\",\n        \"payment_method_id\": 2\n    },\n    {\n        \"id\": 46,\n        \"user_id\": 2,\n        \"status_id\": 1,\n        \"created_at\": \"2020-09-29T13:36:29.000Z\",\n        \"payment_method_id\": 1\n    }\n]"
+							"body": "[\n    {\n        \"id\": 1,\n        \"user_id\": 3,\n        \"status_id\": 1,\n        \"created_at\": \"2020-09-29T21:09:52.000Z\",\n        \"payments_method_id\": 1\n    },\n    {\n        \"id\": 45,\n        \"user_id\": 1,\n        \"status_id\": 3,\n        \"created_at\": \"2020-09-29T21:20:28.000Z\",\n        \"payments_method_id\": 2\n    },\n    {\n        \"id\": 46,\n        \"user_id\": 2,\n        \"status_id\": 1,\n        \"created_at\": \"2020-09-29T13:36:29.000Z\",\n        \"payments_method_id\": 1\n    }\n]"
 						}
 					]
 				},
@@ -1422,7 +1422,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{   \r\n    \"payment_method_id\": 2,\r\n    \"status_id\": 3\r\n}\r\n        \r\n    "
+							"raw": "{   \r\n    \"payments_method_id\": 2,\r\n    \"status_id\": 3\r\n}\r\n        \r\n    "
 						},
 						"url": {
 							"raw": "http://localhost:3000/orders/45",
@@ -1451,7 +1451,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{   \r\n    \"payment_method_id\": 2,\r\n    \"status_id\": 3\r\n}\r\n        \r\n    "
+									"raw": "{   \r\n    \"payments_method_id\": 2,\r\n    \"status_id\": 3\r\n}\r\n        \r\n    "
 								},
 								"url": {
 									"raw": "http://localhost:3000/orders/45",
